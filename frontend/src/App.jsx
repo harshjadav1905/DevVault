@@ -10,7 +10,7 @@ import 'prismjs/components/prism-sql';
 import 'prismjs/components/prism-css';
 import 'prismjs/components/prism-markup';
 
-const API_BASE = 'http://localhost:5000/api/snippets';
+const API_BASE = 'https://devvault-qrly.onrender.com/api/snippets';
 
 const LANGUAGES = ['All', 'JavaScript', 'Python', 'Bash', 'HTML', 'CSS', 'SQL'];
 
