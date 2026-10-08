@@ -292,3 +292,24 @@ textarea.code-area {
   color: #64748b;
   font-size: 0.95rem;
 }
+
+@media (max-width: 640px) {
+  .form-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+  }
+
+  .filter-container {
+    overflow-x: auto;
+    padding-bottom: 8px;
+    white-space: nowrap;
+  }
+
+  .app-container {
+    padding: 16px 12px;
+  }
+}
